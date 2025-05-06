@@ -1,0 +1,31 @@
+.top {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100vw;
+  height: 70px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0 0 0 100px;
+}
+.topText {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: rgb(112, 204, 17);
+}
+.topTel {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  /* color: rgb(112, 204, 17); */
+  color: rgb(46, 63, 26);
+  text-decoration: none;
+}
